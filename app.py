@@ -182,7 +182,7 @@ if submitted:
             if value != "No internet service":
                 errors.append(
                     f"{feature} must be 'No internet service' "
-                    "when Internet service is No."
+                    f"when Internet service is No."
                 )
     else:
         for feature, value in internet_features.items():

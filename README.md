@@ -74,7 +74,7 @@ The model identified 264 of 374 actual churners in the test set. It also flagged
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/NimishDarne/Customer_Churn_Prediction
 cd Customer_Churn_Prediction
 ```
 
