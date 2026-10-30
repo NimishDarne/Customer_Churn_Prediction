@@ -136,3 +136,7 @@ Your existing notebooks and folders may contain additional files.
 ## Technologies
 
 Python, pandas, scikit-learn, joblib, Streamlit, Matplotlib, and Seaborn.
+<img width="1917" height="916" alt="app2" src="https://github.com/user-attachments/assets/69a47077-e48f-4031-b3cf-61ba00644ad6" />
+<img width="1906" height="911" alt="Screenshot 2026-10-30 115421" src="https://github.com/user-attachments/assets/7a10b4b1-cf2b-4e0a-b3a1-a1a2dccc5ce8" />
+<img width="1916" height="642" alt="app3" src="https://github.com/user-attachments/assets/9e6b023c-fc7b-4645-970d-4dc94786bb89" />
+
