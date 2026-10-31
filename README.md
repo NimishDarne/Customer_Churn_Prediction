@@ -1,8 +1,9 @@
 # Customer Churn Prediction
 
-A machine learning project that predicts whether a telecom customer is likely to leave a service provider using customer demographics, subscription details, contract information, and billing data.
+A machine learning project that predicts whether a telecom customer is likely to leave a service provider using customer demographics, subscription details, contract information and billing data.
 
-The project includes exploratory data analysis, preprocessing, model comparison, hyperparameter tuning, threshold selection, and an interactive Streamlit application.
+The project includes exploratory data analysis, preprocessing, model comparison, hyperparameter tuning, threshold selection and an interactive Streamlit application.
+https://nimishdarne-customer-churn-prediction-app-qpbvcs.streamlit.app/
 
 ## Problem Statement
 
@@ -16,7 +17,7 @@ This project uses historical customer data to estimate churn probability and cla
 - Data cleaning and preprocessing
 - Categorical encoding and numerical scaling
 - Logistic Regression and Random Forest experiments
-- Stratified cross-validation and hyperparameter tuning
+- Stratified cross validation and hyperparameter tuning
 - Prediction threshold analysis
 - Saved scikit-learn pipeline
 - Interactive Streamlit application with input validation and risk categories
@@ -41,16 +42,16 @@ Please ensure you have the right to redistribute the dataset before including it
 2. Investigated data quality issues, including invalid `TotalCharges` values.
 3. Separated the target variable from the input features.
 4. Used a scikit-learn `ColumnTransformer` to one-hot encode categorical features and scale numerical features.
-5. Compared Logistic Regression and Random Forest using stratified five-fold cross-validation.
+5. Compared Logistic Regression and Random Forest using stratified five-fold cross validation.
 6. Tuned hyperparameters with `RandomizedSearchCV`.
 7. Compared classification thresholds using out-of-fold predictions on the training data.
-8. Evaluated the selected Logistic Regression pipeline on a held-out test set.
+8. Evaluated the selected Logistic Regression pipeline on a held out test set.
 
 The final selected pipeline uses balanced Logistic Regression with `C=0.5`. The application uses a classification threshold of `0.6`.
 
 ## Model Evaluation
 
-Final held-out test results at threshold `0.6`:
+Final held out test results at threshold `0.6`:
 
 | Metric | Score |
 |---|---:|
@@ -67,7 +68,7 @@ Final held-out test results at threshold `0.6`:
 | Actual stay | 811 | 224 |
 | Actual churn | 110 | 264 |
 
-The model identified 264 of 374 actual churners in the test set. It also flagged 224 customers who ultimately stayed, so the predictions should be used to support—not replace—business judgment.
+The model identified 264 of 374 actual churners in the test set. It also flagged 224 customers who ultimately stayed, so the predictions should be used to support—not replace business judgment.
 
 ## Run Locally
 
@@ -116,7 +117,6 @@ Customer_Churn_Prediction/
 └── README.md
 ```
 
-Your existing notebooks and folders may contain additional files.
 
 ## Limitations
 
